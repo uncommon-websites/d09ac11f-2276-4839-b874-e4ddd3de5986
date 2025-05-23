@@ -19,63 +19,63 @@
 <LogoScroller label="" generating />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Anthropic builds trustworthy AI that helps people solve problems, write, and code. Our models are designed with safety and responsibility in mind, so businesses and individuals can work smarter and more confidently."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Theo Varela",
+			position: "Head of Engineering",
+			company: "Draftform",
+			quote: "Claude cuts 12–15 hours a week from our code review cycle. It flags edge cases, suggests tests, and adds docstrings our team used to miss.",
+			image: "/generated/image-man-in-a-modern-office-wearing-a-casual-.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Sohini Marek",
+			position: "Director of Clinical AI",
+			company: "Xymetri",
+			quote: "We rely on Claude because it actually respects our research boundaries. It refuses unsafe requests before we have to double-check. That saves us time and liability.",
+			image: "/generated/image-woman-in-a-lab-wearing-glasses-and-a-res.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Ren Otani",
+			position: "VP of Product",
+			company: "Zepho Core",
+			quote: "We integrated Claude’s API for internal support and budgeting tasks. It replaced expensive software and cut monthly ops costs by 26%.",
+			image: "/generated/image-non-binary-person-in-a-coworking-space-d.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="AI that works for you"
+	subtitle="Core features that set Claude apart"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Human-first AI design",
+			description: "Every Claude model is made to serve people—safety and meaningful benefit come first, not after-thoughts."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Advanced Claude 4 models",
+			description: "Claude helps you code, write, and research with powerful models built for both complex tasks and everyday speed."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Responsible by default",
+			description: "We are fully transparent about how we train, test, and deploy AI—responsibility is built into everything we do."
+		},
+		{
+			title: "Seamless developer tools",
+			description: "APIs and apps let you build, launch, or scale new ideas fast—so you spend less time wrestling with code."
+		},
+		{
+			title: "Works everywhere you do",
+			description: "Claude integrates with Google Workspace, web resources, and business tools to fit right into your existing workflow."
+		},
+		{
+			title: "Openness and research",
+			description: "We share alignment science, safety work, and ongoing research so you can build on a foundation you trust."
 		}
 	]}
 />
