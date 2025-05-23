@@ -26,19 +26,18 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+  title="AI designed for humanity’s future"
+  subtitle="Responsible, helpful models for developers, businesses, and everyday work"
+  imageSrc="/generated/image-a-diverse-team-of-professionals-engaged-.webp"
 />
 
 <!-- Story Section -->
 <Story
-	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
-	]}
+  paragraphs={[
+    "We founded Anthropic because we believe AI should be built differently—from the ground up to be helpful, understandable, and safe. As AI systems became more capable, we saw a simple but urgent problem: most were getting more powerful, but not necessarily more aligned with human needs. We started Anthropic to change that—to build AI that puts people first, both in how it works and why it’s built.",
+    "That’s why our work begins with a focus on human well-being. Our team—made up of researchers, engineers, and policy experts—develops AI in ways that are transparent, grounded in collaboration, and open about the challenges ahead. We’ve spent years studying how to build models that are clearer in their decision-making and more predictable in their behavior, so they can play a reliable role in everyday tools and critical decisions alike.",
+    "Claude, our AI assistant, reflects those values. It helps people write better, code faster, and think more deeply—supporting individuals and teams in fields from education to software development to policy. And we’re just getting started. As our models evolve, we’ll continue to work with the broader community to make sure AI remains safe, useful, and focused on what matters: the people using it."
+  ]}
 />
 
 <!-- Our Culture Section -->
@@ -53,23 +52,23 @@
 		{
 			name: "Alex Morgan",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			bio: "Alex founded Anthropic to build AI that prioritizes safety, responsibility, and long-term human well-being. With over a decade in AI systems design and research leadership, Alex helped launch scalable model training pipelines and advanced safety efforts—ensuring Anthropic’s work focuses on real, human benefit.",
 			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-professional-headshot-of-a-young-thought.webp"
 		},
 		{
 			name: "Jamie Chen",
 			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
+			bio: "Jamie builds thoughtful user experiences so AI empowers, not overwhelms. At Anthropic, Jamie leads design for usability and trust, making every Claude interaction clear, approachable, and safe—championing accessible, intuitive design across all interfaces.",
 			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
+				"/generated/image-studio-headshot-of-a-diverse-creative-le.webp"
 		},
 		{
 			name: "Taylor Wright",
 			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			bio: "Taylor builds and scales the infrastructure for Claude. They lead teams uniting advanced research and engineering—making safe, reliable AI work at scale and collaborating across disciplines to keep Anthropic’s systems robust and responsible.",
 			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-confident-and-technical-leader-capture.webp"
 		}
 	]}
 />
@@ -77,7 +76,7 @@
 <StakeholderGrid
 	stakeholderType="investor"
 	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
+	subtitle="Supported by leading investors who believe in responsible AI for society"
 	stakeholders={[
 		{
 			name: "Point Nine Capital",

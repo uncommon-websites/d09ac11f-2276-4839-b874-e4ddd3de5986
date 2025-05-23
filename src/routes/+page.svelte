@@ -81,45 +81,48 @@
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "AI-powered compliance reviews",
+			description: "Use Claude to scan contracts, policies, or technical documentation for gaps, inconsistencies, or regulatory risks. Save hours of manual checks with structured, explainable outputs.",
+			image: "/generated/image-a-diverse-business-team-engaged-in-a-dis.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/compliance",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Fast technical support summaries",
+			description: "Summarize support tickets, extract key errors, and provide suggested fixes your agents can trust. Claude helps teams respond faster across channels with consistent answers.",
+			image: "/generated/image-a-group-of-people-working-together-helpi.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/support",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Custom codebase Q&A",
+			description: "Let Claude answer detailed questions about your codebase by uploading files directly or connecting to your repo. Ideal for onboarding developers, reviewing architecture, and understanding legacy code.",
+			image: "/generated/image-a-team-of-developers-focused-on-their-la.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/codebase-qna",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="AI you can trust for thoughtful, productive work"
+  subtitle="Safety, speed, and collaboration—always built in"
+  description="Claude helps you code faster, write clearer, and research smarter—without compromising on safety. Built with responsible AI principles at its core, Claude gives individuals and teams the peace of mind to work confidently."
+  imageSrc="/generated/image-a-cheerful-professional-in-a-contemporar.webp"
+  callsToAction={[
+    { href: "/get-started", label: "Try Claude free", variant: "primary" },
+    { href: "/contact", label: "Contact sales", variant: "secondary" }
+  ]}
+/>
+

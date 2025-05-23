@@ -50,11 +50,15 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
-		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-		callsToAction = [cta],
+		title = "Shape the future of responsible AI",
+		subtitle = "Join us or collaborate",
+		description = "Be part of the Anthropic mission: whether you're a developer, researcher, or business leader, help us build AI that serves humanity's long-term interests. Explore open roles, propose a partnership, or reach out to learn how you can make a meaningful impact.",
+		imageSrc = "/generated/image-a-cheerful-software-developer-in-a-moder.webp",
+		callsToAction = [
+  { href: "/careers", label: "See open roles", variant: "primary" },
+  { href: "/partnerships", label: "Explore partnerships", variant: "secondary" },
+  { href: "/contact", label: "Contact us", variant: "secondary" }
+],
 		...rest
 	}: {
 		title?: string;
